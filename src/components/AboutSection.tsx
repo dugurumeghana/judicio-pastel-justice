@@ -14,8 +14,8 @@ const AboutSection = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
             <div className="flex items-center mb-6">
-              <div className="bg-judicio-pink/20 p-3 rounded-full">
-                <Scale className="h-6 w-6 text-judicio-pink" />
+              <div className="bg-judicio-deepRed/20 p-3 rounded-full">
+                <Scale className="h-6 w-6 text-judicio-deepRed" />
               </div>
               <h3 className="ml-4 text-2xl font-playfair font-bold">Our Mission</h3>
             </div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
               In a world where legal systems can be complicated and intimidating, we believe that everyone deserves to understand their rights and the laws that protect them.
             </p>
             
-            <div className="bg-judicio-lavender/30 border border-judicio-lavender p-6 rounded-xl">
+            <div className="bg-judicio-beige/50 border border-judicio-beige/60 p-6 rounded-xl">
               <p className="text-xl font-playfair italic text-judicio-text">
                 "Empowering Justice Through Awareness"
               </p>
@@ -36,24 +36,24 @@ const AboutSection = () => {
             
             <div className="mt-8 space-y-4">
               <div className="flex items-start">
-                <div className="bg-judicio-mint/30 p-1 rounded-full mt-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-green-600" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-judicio-rustyOrange/30 p-1 rounded-full mt-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-judicio-rustyOrange" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <p className="ml-3 text-gray-600">Built by legal experts and AI specialists</p>
               </div>
               <div className="flex items-start">
-                <div className="bg-judicio-mint/30 p-1 rounded-full mt-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-green-600" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-judicio-rustyOrange/30 p-1 rounded-full mt-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-judicio-rustyOrange" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <p className="ml-3 text-gray-600">Regularly updated with latest legal changes</p>
               </div>
               <div className="flex items-start">
-                <div className="bg-judicio-mint/30 p-1 rounded-full mt-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-green-600" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-judicio-rustyOrange/30 p-1 rounded-full mt-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-judicio-rustyOrange" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -64,7 +64,7 @@ const AboutSection = () => {
           
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-judicio-blue to-judicio-lavender rounded-xl blur-md opacity-30"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-judicio-mutedGold to-judicio-rustyOrange rounded-xl blur-md opacity-30"></div>
               <img 
                 src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80" 
                 alt="Legal scales" 
@@ -76,7 +76,7 @@ const AboutSection = () => {
       </div>
       
       {/* Decorative element */}
-      <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-b from-transparent to-judicio-blue/5"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-b from-transparent to-judicio-beige/10"></div>
     </section>
   );
 };

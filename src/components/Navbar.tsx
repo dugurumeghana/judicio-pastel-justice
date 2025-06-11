@@ -16,20 +16,20 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-judicio-text font-playfair">Judicio<span className="text-judicio-pink">Bot</span></span>
+              <span className="text-2xl font-bold text-judicio-text font-playfair">Judicio<span className="text-judicio-deepRed">Bot</span></span>
             </a>
           </div>
           
           {/* Desktop menu */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-judicio-text hover:text-judicio-pink transition-colors">Home</a>
-            <a href="#about" className="text-judicio-text hover:text-judicio-pink transition-colors">About</a>
-            <a href="#how-it-works" className="text-judicio-text hover:text-judicio-pink transition-colors">How It Works</a>
-            <a href="#features" className="text-judicio-text hover:text-judicio-pink transition-colors">Features</a>
-            <a href="#use-cases" className="text-judicio-text hover:text-judicio-pink transition-colors">Use Cases</a>
-            <a href="#for-students" className="text-judicio-text hover:text-judicio-pink transition-colors">For Students</a>
-            <a href="#faq" className="text-judicio-text hover:text-judicio-pink transition-colors">FAQ</a>
-            <a href="#contact" className="text-judicio-text hover:text-judicio-pink transition-colors">Contact</a>
+            <a href="#" className="text-judicio-text hover:text-judicio-deepRed transition-colors">Home</a>
+            <a href="#about" className="text-judicio-text hover:text-judicio-deepRed transition-colors">About</a>
+            <a href="#how-it-works" className="text-judicio-text hover:text-judicio-deepRed transition-colors">How It Works</a>
+            <a href="#features" className="text-judicio-text hover:text-judicio-deepRed transition-colors">Features</a>
+            <a href="#use-cases" className="text-judicio-text hover:text-judicio-deepRed transition-colors">Use Cases</a>
+            <a href="#for-students" className="text-judicio-text hover:text-judicio-deepRed transition-colors">For Students</a>
+            <a href="#faq" className="text-judicio-text hover:text-judicio-deepRed transition-colors">FAQ</a>
+            <a href="#contact" className="text-judicio-text hover:text-judicio-deepRed transition-colors">Contact</a>
           </nav>
           
           <div className="hidden md:flex">
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button 
               onClick={toggleMenu}
-              className="text-judicio-text hover:text-judicio-pink"
+              className="text-judicio-text hover:text-judicio-deepRed"
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -52,14 +52,14 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden py-4">
             <div className="flex flex-col space-y-4 pb-4">
-              <a href="#" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>Home</a>
-              <a href="#about" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>About</a>
-              <a href="#how-it-works" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>How It Works</a>
-              <a href="#features" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>Features</a>
-              <a href="#use-cases" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>Use Cases</a>
-              <a href="#for-students" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>For Students</a>
-              <a href="#faq" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>FAQ</a>
-              <a href="#contact" className="text-judicio-text hover:text-judicio-pink transition-colors" onClick={toggleMenu}>Contact</a>
+              <a href="#" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>Home</a>
+              <a href="#about" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>About</a>
+              <a href="#how-it-works" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>How It Works</a>
+              <a href="#features" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>Features</a>
+              <a href="#use-cases" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>Use Cases</a>
+              <a href="#for-students" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>For Students</a>
+              <a href="#faq" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>FAQ</a>
+              <a href="#contact" className="text-judicio-text hover:text-judicio-deepRed transition-colors" onClick={toggleMenu}>Contact</a>
               <Button className="gradient-btn w-full">Try Demo</Button>
             </div>
           </div>

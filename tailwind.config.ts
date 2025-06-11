@@ -63,15 +63,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// JudicioBot custom colors
+				// JudicioBot warm earthy colors
 				judicio: {
-					lavender: '#E6E6FA',
-					pink: '#FFD1DC',
-					mint: '#DFFFE0',
-					blue: '#D2EFFF',
-					beige: '#F5F5DC',
-					background: '#FAFAFA',
-					text: '#333333',
+					beige: '#FFE6A7',        // Warm pastel beige background
+					deepRed: '#6F1D1B',      // Bold grounding highlight
+					mutedGold: '#BB9457',    // Warm soft tone for buttons
+					darkBrown: '#432818',    // Rich color for typography
+					rustyOrange: '#99582A',  // Secondary highlight/accent
+					background: '#FEFAF5',   // Slightly lighter background
+					text: '#432818',         // Primary text color
 				},
 			},
 			fontFamily: {
@@ -108,10 +108,10 @@ export default {
 				'float': 'float 4s ease-in-out infinite',
 			},
 			backgroundImage: {
-				'gradient-pink-blue': 'linear-gradient(90deg, #FFD1DC 0%, #D2EFFF 100%)',
+				'gradient-gold-orange': 'linear-gradient(90deg, #BB9457 0%, #99582A 100%)',
 			},
 			boxShadow: {
-				'soft': '0 4px 20px rgba(0, 0, 0, 0.05)',
+				'soft': '0 4px 20px rgba(67, 40, 24, 0.1)',
 			},
 		}
 	},
