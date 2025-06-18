@@ -63,17 +63,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// JudicioBot exact Coolors palette
+				// JudicioBot exact color palette as specified
 				judicio: {
-					deepRed: '#6F1D1B',      // Exact from coolors
-					mutedGold: '#BB9457',    // Exact from coolors
-					darkBrown: '#432818',    // Exact from coolors
-					rustyOrange: '#99582A',  // Exact from coolors
-					lightBeige: '#FFE6A7',   // Exact from coolors
-					// Additional lighter variations for backgrounds
-					background: '#FEFBF7',   // Very light cream for main background
-					beige: '#FFF4E0',        // Lighter beige for cards
-					text: '#432818',         // Primary text using dark brown
+					// Main colors from your palette
+					background: '#FFE6A7',       // Warm pastel beige background
+					deepRed: '#6F1D1B',         // Bold grounding highlight
+					mutedGold: '#BB9457',       // Warm soft tone for buttons
+					darkBrown: '#432818',       // Rich color for typography
+					rustyOrange: '#99582A',     // Secondary highlight/accent
+					text: '#432818',            // Primary text color (same as darkBrown)
+					
+					// Additional lighter variations for better UX
+					lightBackground: '#FFF8E1',  // Even lighter version for main background
+					cardBackground: '#FFF4D6',   // Slightly darker for cards
 				},
 			},
 			fontFamily: {
