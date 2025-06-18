@@ -14,8 +14,8 @@ const FeaturesSection = () => {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Feature 1 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-pink/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-              <MessageSquare className="h-6 w-6 text-judicio-pink" />
+            <div className="bg-judicio-deepRed/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <MessageSquare className="h-6 w-6 text-judicio-deepRed" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">AI Legal Assistant</h3>
             <p className="text-gray-600">
@@ -25,8 +25,8 @@ const FeaturesSection = () => {
           
           {/* Feature 2 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-blue/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-              <Globe className="h-6 w-6 text-judicio-blue" />
+            <div className="bg-judicio-mutedGold/20 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Globe className="h-6 w-6 text-judicio-mutedGold" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">Multilingual Support</h3>
             <p className="text-gray-600">
@@ -36,7 +36,7 @@ const FeaturesSection = () => {
           
           {/* Feature 3 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-mint/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <div className="bg-green-500/20 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
               <Mic className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">Voice-to-Text</h3>
@@ -47,8 +47,8 @@ const FeaturesSection = () => {
           
           {/* Feature 4 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-lavender/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-              <BookOpen className="h-6 w-6 text-purple-500" />
+            <div className="bg-judicio-rustyOrange/20 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <BookOpen className="h-6 w-6 text-judicio-rustyOrange" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">Case References</h3>
             <p className="text-gray-600">
@@ -58,8 +58,8 @@ const FeaturesSection = () => {
           
           {/* Feature 5 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-blue/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-              <Lock className="h-6 w-6 text-judicio-blue" />
+            <div className="bg-judicio-mutedGold/20 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Lock className="h-6 w-6 text-judicio-mutedGold" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">Privacy Focused</h3>
             <p className="text-gray-600">
@@ -69,8 +69,8 @@ const FeaturesSection = () => {
           
           {/* Feature 6 */}
           <div className="card hover:shadow-md transition-shadow">
-            <div className="bg-judicio-pink/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
-              <FileText className="h-6 w-6 text-judicio-pink" />
+            <div className="bg-judicio-deepRed/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <FileText className="h-6 w-6 text-judicio-deepRed" />
             </div>
             <h3 className="text-xl font-bold font-playfair mb-2">Document Templates</h3>
             <p className="text-gray-600">

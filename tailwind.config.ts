@@ -65,12 +65,12 @@ export default {
 				},
 				// JudicioBot warm earthy colors
 				judicio: {
-					beige: '#FFE6A7',        // Warm pastel beige background
+					beige: '#FFF4E0',        // Much lighter warm beige background
 					deepRed: '#6F1D1B',      // Bold grounding highlight
 					mutedGold: '#BB9457',    // Warm soft tone for buttons
 					darkBrown: '#432818',    // Rich color for typography
 					rustyOrange: '#99582A',  // Secondary highlight/accent
-					background: '#FEFAF5',   // Slightly lighter background
+					background: '#FEFBF7',   // Very light cream background
 					text: '#432818',         // Primary text color
 				},
 			},
@@ -96,22 +96,18 @@ export default {
 					'0%': { opacity: '0', transform: 'translateY(10px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' },
 				},
-				'float': {
-					'0%, 100%': { transform: 'translateY(0)' },
-					'50%': { transform: 'translateY(-10px)' },
-				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
-				'float': 'float 4s ease-in-out infinite',
 			},
 			backgroundImage: {
 				'gradient-gold-orange': 'linear-gradient(90deg, #BB9457 0%, #99582A 100%)',
 			},
 			boxShadow: {
-				'soft': '0 4px 20px rgba(67, 40, 24, 0.1)',
+				'soft': '0 4px 20px rgba(67, 40, 24, 0.08)',
+				'gentle': '0 2px 10px rgba(67, 40, 24, 0.05)',
 			},
 		}
 	},

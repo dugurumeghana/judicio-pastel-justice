@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -15,19 +16,26 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               JudicioBot makes legal awareness accessible to everyone with AI-powered assistance. Get insights on laws, rights, and actions tailored to your situation.
             </p>
+            <div className="bg-judicio-beige/40 border border-judicio-beige/60 p-6 rounded-xl mb-8">
+              <p className="text-xl font-playfair italic text-judicio-text text-center">
+                "Empowering Justice Through Awareness"
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="gradient-btn">
-                Try JudicioBot Free
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link to="/experience">
+                <Button className="gradient-btn">
+                  Try JudicioBot Free
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
               <Button variant="outline" className="border-judicio-mutedGold text-judicio-text hover:bg-judicio-mutedGold/10">
                 Learn More
               </Button>
             </div>
           </div>
           
-          <div className="relative animate-float">
-            <div className="absolute -inset-1 bg-gradient-to-r from-judicio-mutedGold to-judicio-rustyOrange rounded-2xl blur opacity-30"></div>
+          <div className="relative">
+            <div className="absolute -inset-1 bg-gradient-to-r from-judicio-mutedGold to-judicio-rustyOrange rounded-2xl blur opacity-20"></div>
             <div className="relative bg-white rounded-2xl shadow-soft overflow-hidden">
               <div className="bg-judicio-beige/70 p-4">
                 <div className="flex items-center space-x-2">
@@ -57,6 +65,7 @@ const HeroSection = () => {
                     type="text"
                     placeholder="Type your legal question..."
                     className="flex-1 py-2 px-4 focus:outline-none text-sm"
+                    readOnly
                   />
                   <button className="bg-gradient-gold-orange text-white p-2 rounded-full mr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -72,8 +81,8 @@ const HeroSection = () => {
       </div>
       
       {/* Decorative elements */}
-      <div className="absolute top-1/3 -left-12 h-40 w-40 rounded-full bg-judicio-rustyOrange/20 blur-3xl opacity-40"></div>
-      <div className="absolute bottom-1/4 right-0 h-60 w-60 rounded-full bg-judicio-mutedGold/30 blur-3xl opacity-20"></div>
+      <div className="absolute top-1/3 -left-12 h-40 w-40 rounded-full bg-judicio-rustyOrange/15 blur-3xl opacity-40"></div>
+      <div className="absolute bottom-1/4 right-0 h-60 w-60 rounded-full bg-judicio-mutedGold/20 blur-3xl opacity-20"></div>
     </section>
   );
 };

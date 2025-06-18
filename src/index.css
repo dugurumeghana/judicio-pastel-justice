@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    --background: 44 20% 98%;
+    --background: 44 30% 97%;
     --foreground: 28 44% 15%;
 
     --card: 0 0% 100%;
@@ -17,33 +17,33 @@
     --popover-foreground: 28 44% 15%;
 
     --primary: 28 44% 15%;
-    --primary-foreground: 44 20% 98%;
+    --primary-foreground: 44 30% 97%;
 
-    --secondary: 44 50% 90%;
+    --secondary: 44 60% 95%;
     --secondary-foreground: 28 44% 15%;
 
-    --muted: 44 50% 90%;
+    --muted: 44 60% 95%;
     --muted-foreground: 25 15% 45%;
 
-    --accent: 44 50% 90%;
+    --accent: 44 60% 95%;
     --accent-foreground: 28 44% 15%;
 
     --destructive: 8 82% 27%;
-    --destructive-foreground: 44 20% 98%;
+    --destructive-foreground: 44 30% 97%;
 
-    --border: 44 30% 85%;
-    --input: 44 30% 85%;
+    --border: 44 40% 90%;
+    --input: 44 40% 90%;
     --ring: 28 44% 15%;
 
     --radius: 1rem;
 
-    --sidebar-background: 44 20% 98%;
+    --sidebar-background: 44 30% 97%;
     --sidebar-foreground: 28 30% 25%;
     --sidebar-primary: 28 44% 15%;
-    --sidebar-primary-foreground: 44 20% 98%;
-    --sidebar-accent: 44 40% 92%;
+    --sidebar-primary-foreground: 44 30% 97%;
+    --sidebar-accent: 44 50% 94%;
     --sidebar-accent-foreground: 28 44% 15%;
-    --sidebar-border: 44 25% 88%;
+    --sidebar-border: 44 35% 92%;
     --sidebar-ring: 25 35% 50%;
   }
 
@@ -62,7 +62,7 @@
 
 @layer components {
   .gradient-btn {
-    @apply bg-gradient-gold-orange text-white font-medium py-3 px-6 rounded-full shadow-soft transition-all hover:shadow-md hover:scale-105;
+    @apply bg-gradient-gold-orange text-white font-medium py-3 px-6 rounded-full shadow-gentle transition-all hover:shadow-soft hover:scale-105;
   }
   
   .section-container {
@@ -78,6 +78,6 @@
   }
 
   .card {
-    @apply bg-white rounded-2xl shadow-soft p-6 transition-all hover:shadow-md;
+    @apply bg-white rounded-2xl shadow-gentle p-6 transition-all hover:shadow-soft;
   }
 }
